@@ -8,18 +8,18 @@
             </header>
             <form class="flex flex-col gap-2">
                 <div class="flex flex-col gap-2 text-left">
-                    <label for="email" class="text-white" >E-mail: </label>
-                    <input id="email" type="email" placeholder="seu@email.com" class="border-1 border-white rounded-xl text-center w-full">
+                    <label for="email" class="text-white" >E-mail </label>
+                    <input id="email" type="email" placeholder="seu email" class="border-1 border-white rounded-xl text-center w-full text-white">
                 </div>
                 <div class="flex flex-col gap-2 text-left">
-                    <label for="senha" class="text-white">Senha: </label>
-                    <input id="senha" type="str" placeholder="sua senha" class="border-1 border-white rounded-xl text-center w-full">
+                    <label for="senha" class="text-white">Senha </label>
+                    <input id="senha" type="password" placeholder="sua senha" class="border-1 border-white rounded-xl text-center w-full text-white">
                 </div>
                 <p></p>
                 <button class="bg-blue-700 rounded-xl text-center px-3 py-1 hover:bg-white hover:border-sky-700 hover:text-sky-700 transition duration-300 cursor-pointer">Login</button>
             </form>
             <footer class="text-sm">
-                <p class="text-white">Não tem uma conta?<RouterLink to="/Logon" class="text-blue-600"> Cadastre-se!</RouterLink></p>
+                <p class="text-white">Não tem uma conta?<RouterLink to="/cadastro" class="text-blue-600"> Cadastre-se!</RouterLink></p>
             </footer>
         </div>
     </main>

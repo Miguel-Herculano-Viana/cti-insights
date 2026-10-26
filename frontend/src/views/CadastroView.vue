@@ -8,26 +8,26 @@
             </header>
             <form class="flex flex-col gap-2">
                 <div class="flex flex-col gap-1 text-left">
-                    <label for="email" class="text-white" >E-mail: </label>
-                    <input id="email" type="email" placeholder="seu@email.com" class="border-1 border-white rounded-xl text-center w-full">
+                    <label for="email" class="text-white" >E-mail </label>
+                    <input id="email" type="email" placeholder="seu email" class="border-1 border-white rounded-xl text-center w-full text-white">
                 </div>
                 <div class="flex flex-col gap-1 text-left">
-                    <label for="nome" class="text-white">Nome: </label>
-                    <input id="nome" type="str" placeholder="seu nome" class="border-1 border-white rounded-xl text-center w-full">
+                    <label for="nome" class="text-white">Nome </label>
+                    <input id="nome" type="str" placeholder="seu nome" class="border-1 border-white rounded-xl text-center w-full text-white">
                 </div>
                 <div class="flex flex-col gap-1 text-left">
-                    <label for="senha" class="text-white">Senha: </label>
-                    <input id="senha" type="str" placeholder="senha" class="border-1 border-white rounded-xl text-center w-full">
+                    <label for="senha" class="text-white">Senha </label>
+                    <input id="senha" type="password" placeholder="senha" class="border-1 border-white rounded-xl text-center w-full text-white">
                 </div>
                 <div class="flex flex-col gap-1 text-left">
-                    <label for="Rsenha" class="text-white">Repita a senha: </label>
-                    <input id="Rsenha" type="str" placeholder="senha" class="border-1 border-white rounded-xl text-center w-full">
+                    <label for="Rsenha" class="text-white">Repita a senha </label>
+                    <input id="Rsenha" type="password" placeholder="senha" class="border-1 border-white rounded-xl text-center w-full text-white">
                 </div>
                 <p></p>
                 <button class="bg-blue-700 rounded-xl text-center px-3 py-1 hover:bg-white hover:border-sky-700 hover:text-sky-700 transition duration-300 cursor-pointer">Cadastrar</button>
             </form>
             <footer class="text-sm">
-                <p class="text-white">Já tem uma conta?<RouterLink to="/Login" class="text-blue-600"> Entre!</RouterLink></p>
+                <p class="text-white">Já tem uma conta?<RouterLink to="/login" class="text-blue-600"> Entre!</RouterLink></p>
             </footer>
         </div>
     </main>
