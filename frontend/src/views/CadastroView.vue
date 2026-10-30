@@ -2,7 +2,7 @@
     <main class="grid min-h-screen bg-linear-to-br/hsl from-sky-900 from-30% via-slate-800 to-blue-900 place-items-center shadow-2xl">
         <div class="bg-white/10 backdrop-blur-md border border-white/20 shadow-xl p-10 rounded-xl text-center max-w-sm w-full">
             <header>
-                <img src="/cti-logo.png" alt="CTI" class="h-20 block mx-auto"">
+                <img src="/cti-logo.png" alt="CTI" class="h-20 block mx-auto">
                 <h1 class="font-bold text-4xl text-white">Cadastro</h1>
                 <p class="text-md text-white mb-2">Solilcite acesso ao sistema</p>
             </header>
